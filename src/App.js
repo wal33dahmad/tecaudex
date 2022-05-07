@@ -1,7 +1,7 @@
 import "./App.css";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-import Planets from "./Components/Planets";
+// import Planets from "./Components/Planets";
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Planets />
-      <h1>Footer</h1>
+      {/* <Planets />
+      <h1>Footer</h1> */}
     </div>
   );
 }

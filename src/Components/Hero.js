@@ -3,8 +3,12 @@ const Hero = () => {
     <>
       <div className="section1">
         <div className="hero">Lorem Ipsum Lorem Ipsum, Lorem Lorem!</div>
-        <div className="blocks" />
-        <div className="tiles" />
+        <div className="blocks">
+          <img src="\images\Blocks.png" alt="blocks" />
+        </div>
+        <div className="tiles">
+          <img src="\images\Tiles.png" alt="tiles" />
+        </div>
       </div>
       <div className="section2">
         <div className="aboutxcash">
