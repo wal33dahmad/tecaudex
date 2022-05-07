@@ -1,27 +1,189 @@
+/* Background */
+.backGround {
+  position: absolute;
+  width: 100%;
+  height: 2049px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #ffffff 0%, #090707 100%);
+}
 /* Navbar */
-.logo .logo_name {
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 47px;
   font-family: "Quicksand";
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 0.1em;
   text-decoration: none;
   color: black;
 }
 
 .nav_links {
+  /* width: auto; */
   list-style: none;
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   letter-spacing: 0.1em;
 }
 .nav_links .nav_link {
-  font-family: 'Questrial';
+  margin-right: 40px;
+  font-family: "Questrial";
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* Hero */
+.section1 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 1071px;
+  overflow: hidden;
+}
+.section1 .hero {
+  position: absolute;
+  width: 100%;
+  height: 393px;
+  left: 79px;
+  top: 277px;
+
+  font-family: "Questrial";
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  line-height: 27px;
+  font-size: 72px;
+  line-height: 74px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.075em;
 
+  color: #000000;
+}
+.section1 .blocks {
+  position: absolute;
+  left: 278px;
+  top: 244px;
+  width: 100%;
+  height: 1140px;
+  background: url(/public/images/Blocks.png) no-repeat;
+}
+.section1 .tiles {
+  position: absolute;
+  width: 100%;
+  height: 1225.5px;
+  left: -111.99px;
+  top: -114.89px;
+  background: url(/public/images/Tiles.png) no-repeat;
+}
+
+.section2 {
+  margin-top: 132px;
+}
+.section2 .aboutxcash {
+  width: 778px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .aboutxcash h2 {
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 99px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.section2 .aboutxcash img {
+  width: 396px;
+  height: 113px;
+}
+
+.section2 .p1 {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.section2 .p2 {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.section2 .features {
+  list-style: none;
+}
+.section2 .features .feature::before {
+  content: "\2022";
+  color: #fa741c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.section2 .features .feature span {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.section2 .features .feature {
+  font-family: "Questrial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+/* Planets */
+.section3 {
+  position: absolute;
+  left: 0px;
+  top: 2049px;
+  width: 100%;
+  height: 1024px;
+  background: url(/public/images/stars.jpg) no-repeat;
+  background-size: contain;
+}
+.section3 .xcash {
+  position: absolute;
+  width: 360px;
+  height: 389px;
+  left: 520px;
+  top: 2518px;
+  
 }
