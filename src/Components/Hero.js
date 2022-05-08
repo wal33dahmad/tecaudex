@@ -2,7 +2,13 @@ const Hero = () => {
   return (
     <>
       <div className="section1">
-        <div className="hero">Lorem Ipsum Lorem Ipsum, Lorem Lorem!</div>
+        <div className="hero">
+          Lorem Ipsum
+          <br />
+          Lorem Ipsum, Lorem
+          <br />
+          Lorem!
+        </div>
         <div className="blocks">
           <img src="\images\Blocks.png" alt="blocks" />
         </div>
