@@ -5,20 +5,22 @@ body {
   width: 1440px;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 /* Background */
 .backGround {
   position: absolute;
   width: 100%;
-  height: 2049px;
   left: 0px;
   top: 0px;
-  background: linear-gradient(180deg, #ffffff 0%, #090707 100%);
   z-index: -1;
 }
 /* Navbar */
 .nav {
-  width: 100%;
   padding-top: 50px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +37,6 @@ body {
   color: black;
 }
 .nav_links {
-  /* width: auto; */
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -54,14 +55,13 @@ body {
 /* Hero */
 .section1 {
   position: relative;
-  /* width: 1440px; */
   width: 100%;
-  height: 1071px;
+  height: 875px;
   overflow: hidden;
 }
 .section1 .hero {
+  padding-top: 50px;
   padding-left: 79px;
-  margin-top: 277px;
   width: 59vw;
   height: 393px;
   font-size: 72px;
@@ -73,48 +73,35 @@ body {
 }
 .section1 .blocks img {
   position: absolute;
-  width: 1542px;
-  height: 1140px;
-  left: 278px;
-  top: 244px;
+  width: 87%;
+  right: 0px;
+  top: 145px;
+  z-index: 3;
 }
 .section1 .tiles img {
   position: absolute;
-  /* width: 2416.88px; */
-  /* height: 1225.5px; */
-  width: 1440px;
-  height: 1071px;
-  left: -111.99px;
-  top: -114.89px;
+  right: 0px;
+  top: 0px;
   z-index: 2;
+  width: 100%;
 }
 
 /* ABOUT Section */
 .section2 {
-  /* width: 1052px; */
-  width: 73%;
-  height: 740px;
-  left: 194px;
-  top: 1169px;
+  width: 1200px;
+  margin: auto;
 }
 .section2 .aboutxcash {
-  width: 54%;
-  height: 125px;
-  left: 331px;
-  top: 1169px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 750px;
+  margin: 40px auto;
 }
 .section2 .aboutxcash h2 {
-  width: 301px;
-  height: 91px;
-  left: 331px;
-  top: 1203px;
-
   font-size: 96px;
-  line-height: 99px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: 0.1em;
   color: #ffffff;
+  align-self: end;
 }
 .section2 .aboutxcash img {
   width: 396px;
@@ -137,25 +124,18 @@ body {
   color: #ffffff;
 }
 .section2 .p2 {
-  width: 338px;
-  height: 24px;
-  left: 194px;
-  top: 1506px;
-
   font-size: 24px;
-  line-height: 25px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 0.1em;
   color: #ffffff;
+  margin: 50px 0px;
 }
 .section2 .features {
   list-style: none;
-
-  width: 1038px;
-  height: 326px;
-  left: 207px;
-  top: 1583px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  height: 285px;
 }
 .section2 .features .feature::before {
   content: "\2022";
@@ -170,6 +150,7 @@ body {
   line-height: 25px;
   letter-spacing: 0.1em;
   color: #ffffff;
+  font-weight: bold;
 }
 .section2 .features .feature {
   font-size: 24px;
@@ -187,24 +168,38 @@ body {
   background: url(/public/images/stars.jpg) no-repeat;
   background-size: contain;
 }
-.section3 .xcash {
-  width: 360px;
-  height: 389px;
-  left: 520px;
-  top: 2518px;
+.section3 .xcash,
+.section3 .xcash img {
+  width: 100%;
+  height: 100%;
 }
-.section3 .xcash h4 {
-  width: 155px;
-  height: 87px;
-  left: 621px;
-  top: 2820px;
 
-  font-family: "Quicksand";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 45px;
-  text-align: center;
+.footer {
+  padding: 50px 0px 50px 50px;
+  position: relative;
+}
+.footer .left {
+  width: 50%;
+}
+.footer .left .one {
+  display: flex;
+  justify-content: space-between;
+}
 
-  color: #ffffff;
+.footer .left .two {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -80px;
+  top: 0px;
+  background-image: url(/public/images/Tiles.png);
+  background-repeat: no-repeat;
+  /* background-color: green; */
+  z-index: 100;
 }
