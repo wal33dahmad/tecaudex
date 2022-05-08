@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cfe7feac.css",
+    "main.js": "/static/js/main.122e616b.js",
+    "static/media/stars.jpg": "/static/media/stars.9200a7851d381f872dc8.jpg",
+    "static/media/Tiles.png": "/static/media/Tiles.2224b44b306392e566c2.png",
+    "index.html": "/index.html",
+    "main.cfe7feac.css.map": "/static/css/main.cfe7feac.css.map",
+    "main.122e616b.js.map": "/static/js/main.122e616b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe7feac.css",
+    "static/js/main.122e616b.js"
+  ]
+}
